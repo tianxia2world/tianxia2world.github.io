@@ -1,0 +1,176 @@
+body {
+	font-size:13px;
+	font-family:微软雅黑;
+	/*background:#5C83B6;*/
+	-webkit-user-select: none;
+}
+::-webkit-scrollbar{width: 0; height: 0;}
+/* clearfix */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:inline-block}
+* html .clearfix{height:1%}
+.clearfix{display:block}
+audio {
+	display:none;
+}
+button {
+	font-size: 11px;
+	background: #D5DEE8;
+	height: 20px;
+	line-height:16px;
+	border: 1px solid #2A3B4C;
+	border-radius: 3px;
+	color:#43617B;
+	font-weight:600;
+	padding: 1px 3px;
+	cursor:pointer;
+}
+button:hover {
+	background: #FEF2C4;
+}
+#player {
+	width:280px;
+	height:370px;
+	background:#4F6E8D;
+	margin:20px auto;
+	border-radius:8px;
+	/*box-shadow:1px 1px 7px rgba(0, 0, 0, 0.4);*/
+}
+#controls {
+	height:70px;
+}
+.controls div {
+	float:left;
+	width:49px;
+	height:57px;
+	margin: 7px 0 6px 0;
+}
+#play {
+	background: url("images/ctrl.png");
+	margin-left:10px;
+	cursor:pointer;
+}
+#play:hover {
+	background: url("images/ctrl.png") no-repeat 0 -57px;
+}
+#play.playing {
+	background: url("images/ctrl.png") no-repeat -49px 0;
+}
+#play.playing:hover {
+	background: url("images/ctrl.png") no-repeat -49px -57px;
+}
+#next {
+	background: url("images/ctrl.png") no-repeat -98px 0;
+	cursor:pointer;
+}
+#next:hover {
+	background: url("images/ctrl.png") no-repeat -98px -57px;
+}
+#progress {
+	width:100px;
+	height:20px;
+	margin:25px 0;
+	border-radius:3px;
+	background:#1B2631;
+	overflow:hidden;
+	position:relative;
+	cursor:pointer;
+}
+#progress div{
+	width:0;
+	height:20px;
+	background:#374D62;
+	margin:0;
+	border-radius:3px 0 0 3px;
+}
+#progress p{
+	width:100px;
+	height:20px;
+	line-height:20px;
+	margin:0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size:10px;
+	text-align:center;
+	color:#FFF;
+	font-weight:600;
+}
+#volume {
+	width:50px;
+	height:16px;
+	margin:27px 10px;
+	position:relative;
+	background: url("images/vol.png") repeat-x;
+	cursor:pointer;
+}
+#volume div{
+	width:14px;
+	height:14px;
+	border: 1px solid #2A3B4C;
+	border-radius: 3px;
+	margin:0;
+	background: #D5DEE8 url("images/vol2.png") no-repeat;
+	position: absolute;
+	left: 34px;
+	top: 0;
+	cursor:pointer;
+}
+#volume div:hover {
+	background-color: #FEF2C4;
+}
+.bar {
+	height:30px;
+	line-height:30px;
+	background:#47637E;
+	padding:0 10px;
+}
+.bar button {
+	margin:5px 4px;
+}
+.bottom {
+	border-radius:0 0 8px 8px;
+	color:#D5DEE8;
+	font-size:12px;
+	font-weight:700;
+}
+#mode {
+	color:#FFF;
+	cursor:pointer;
+}
+#musiclist {
+  height:240px;
+  background:#12CCF0;
+  margin:0;
+  list-style:square;
+  padding-left:0;
+  overflow:scroll;
+}
+#musiclist li{
+  height:24px;
+  line-height:24px;
+  font-size:12px;
+  color:#121834;
+  padding-left:10px;
+  list-style-position:inside;
+  cursor:default;
+}
+#musiclist li.isplay {
+  background:#FFD133;
+}
+#musiclist li:hover {
+  background:#FEDB65;
+}
+#musiclist li.disable {
+  color:#CCD0DB;
+}
+#musiclist li.disable:hover {
+  background:#FFF;
+}
+footer {
+	text-align:center;
+	color:#555;
+}
+footer a {
+	color:#555;
+}
