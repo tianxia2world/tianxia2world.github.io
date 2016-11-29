@@ -1,0 +1,275 @@
+HTML {
+	HEIGHT:100%
+}
+BODY {
+	FONT-SIZE:12px;
+	BACKGROUND:url(/hh/yy/files/bg.gif) #000;
+	MARGIN:0px;
+	COLOR:#ffcc00;
+	HEIGHT:100%
+}
+#head {
+	BACKGROUND:url(/hh/yy/files/head_bg.jpg) no-repeat center top;
+	MARGIN:0px auto;
+	WIDTH:1004px;
+	HEIGHT:107px
+}
+#main {
+	BACKGROUND-IMAGE:url(/hh/yy/files/bgc.jpg);
+	MARGIN:0px auto;
+	WIDTH:960px;
+	BACKGROUND-REPEAT:no-repeat;
+	HEIGHT:542px
+}
+#content {
+	MARGIN:5px;
+	WIDTH:950px;
+	HEIGHT:532px
+}
+#menu {
+	CLEAR:both;
+	BACKGROUND-POSITION:center bottom;
+	BACKGROUND-IMAGE:url(/hh/yy/files/hr.gif);
+	MARGIN-LEFT:auto;
+	WIDTH:900px;
+	MARGIN-RIGHT:auto;
+	BACKGROUND-REPEAT:no-repeat;
+	HEIGHT:24px
+}
+#menu_con {
+	MARGIN-LEFT:150px
+}
+#menu P {
+	FLOAT:left;
+	BACKGROUND-IMAGE:url(/hh/yy/files/mbg.gif);
+	MARGIN:0px 5px;
+	WIDTH:63px;
+	BACKGROUND-REPEAT:no-repeat;
+	HEIGHT:21px
+}
+#menu SPAN {
+	DISPLAY:block;
+	FONT-WEIGHT:bold;
+	WIDTH:60px;
+	LINE-HEIGHT:21px;
+	LETTER-SPACING:2px;
+	TEXT-ALIGN:center
+}
+#jn {
+	CLEAR:both;
+	MARGIN-LEFT:auto;
+	WIDTH:900px;
+	MARGIN-RIGHT:auto;
+	HEIGHT:400px
+}
+#jn IMG {
+	FLOAT:left;
+	BORDER-TOP-STYLE:none;
+	MARGIN-RIGHT:1px;
+	BORDER-RIGHT-STYLE:none;
+	BORDER-LEFT-STYLE:none;
+	BORDER-BOTTOM-STYLE:none
+}
+#jn SPAN {
+	MARGIN-TOP:0px;
+	DISPLAY:block;
+	FLOAT:left;
+	MARGIN-LEFT:8px;
+	WIDTH:72px;
+	TEXT-ALIGN:center
+}
+.jns {
+	FLOAT:left;
+	BACKGROUND-IMAGE:url(jn.jpg);
+	MARGIN-LEFT:30px;
+	WIDTH:250px;
+	LINE-HEIGHT:16px;
+	BACKGROUND-REPEAT:no-repeat;
+	HEIGHT:400px
+}
+.jnt {
+	MARGIN-TOP:236px;
+	MARGIN-LEFT:20px;
+	WIDTH:215px;
+	HEIGHT:78px
+}
+.jnp {
+	CLEAR:both;
+	MARGIN-TOP:1px;
+	MARGIN-BOTTOM:3px;
+	MARGIN-LEFT:1px;
+	WIDTH:210px;
+	COLOR:#ffffff;
+	HEIGHT:34px
+}
+.px10 {
+	WIDTH:auto;
+	HEIGHT:10px
+}
+.tt {
+	MARGIN-LEFT:10px
+}
+.white {
+	COLOR:#ffffff
+}
+#jnmain {
+	CLEAR:both;
+	DISPLAY:none;
+	FILTER:Alpha(Opacity=85);
+	LEFT:-5px;
+	BACKGROUND-IMAGE:url(/hh/yy/files/jnc.jpg);
+	MARGIN:0px;
+	OVERFLOW:hidden;
+	WIDTH:238px;
+	BACKGROUND-REPEAT:repeat-y;
+	POSITION:absolute;
+	TOP:0px;
+	HEIGHT:auto
+}
+#jnmain P {
+	MARGIN:2px
+}
+#jnmain TABLE {
+	PADDING-RIGHT:0px;
+	PADDING-LEFT:0px;
+	PADDING-BOTTOM:0px;
+	MARGIN:0px;
+	PADDING-TOP:0px
+}
+#jnmain TD {
+	PADDING-RIGHT:0px;
+	PADDING-LEFT:0px;
+	PADDING-BOTTOM:0px;
+	MARGIN:0px;
+	OVERFLOW:hidden;
+	WIDTH:108px;
+	PADDING-TOP:0px;
+	HEIGHT:auto
+}
+#jnmain_top {
+	BACKGROUND-IMAGE:url(/hh/yy/files/jnt.jpg);
+	MARGIN:1px auto -10px;
+	WIDTH:238px;
+	BACKGROUND-REPEAT:no-repeat;
+	HEIGHT:10px
+}
+#jnmain_con {
+	PADDING-RIGHT:10px;
+	PADDING-LEFT:10px;
+	PADDING-BOTTOM:10px;
+	WIDTH:218px;
+	PADDING-TOP:10px;
+	HEIGHT:auto
+}
+#jnmain_bot {
+	BACKGROUND-IMAGE:url(/hh/yy/files/jnb.jpg);
+	MARGIN:-13px auto 0px;
+	WIDTH:238px;
+	BACKGROUND-REPEAT:no-repeat;
+	HEIGHT:9px
+}
+#jn_title {
+	FONT-SIZE:14px;
+	FONT-WEIGHT:bold;
+	PADDING-BOTTOM:5px;
+	COLOR:#0198ff
+}
+#jn_jj {
+	MARGIN-BOTTOM:0px
+}
+#jn_btn {
+	MARGIN-LEFT:auto;
+	WIDTH:900px;
+	MARGIN-RIGHT:auto;
+	HEIGHT:50px
+}
+#jn_btn_more {
+	LINE-HEIGHT:25px;
+	MARGIN-RIGHT:60px;
+	TEXT-ALIGN:right
+}
+#copyright {
+	BACKGROUND:url(/hh/yy/files/foot_bg.jpg) no-repeat center bottom;
+	MARGIN:-40px auto 0px;
+	WIDTH:1004px;
+	COLOR:#cccccc;
+	HEIGHT:130px
+}
+#copyright A {
+	COLOR:#cccccc
+}
+A:link {
+	COLOR:#ff9900;
+	TEXT-DECORATION:none
+}
+A.now:link {
+	COLOR:#ffffff;
+	TEXT-DECORATION:none
+}
+A:visited {
+	COLOR:#ff9900;
+	TEXT-DECORATION:none
+}
+A.now:visited {
+	COLOR:#ffffff;
+	TEXT-DECORATION:none
+}
+A:hover {
+	COLOR:#ffffff;
+	TEXT-DECORATION:underline
+}
+A:active {
+	COLOR:#ff9900;
+	TEXT-DECORATION:none
+}
+#foot {
+	TEXT-ALIGN:center
+}
+#txt_pic_1 {
+	BACKGROUND:url(/hh/yy/files/txt_pic_03.jpg) no-repeat center 50%;
+	FLOAT:left;
+	WIDTH:24px;
+	HEIGHT:350px
+}
+#copyright {
+	FONT-SIZE:12px;
+	LINE-HEIGHT:150%;
+	TEXT-ALIGN:center
+}
+#remark {
+	FONT-SIZE:12px;
+	PADDING-BOTTOM:7px;
+	COLOR:#965434;
+	TEXT-ALIGN:center
+}
+#remark A {
+	COLOR:#965434;
+	TEXT-DECORATION:none
+}
+#jns1 {
+	FLOAT:left;
+	BACKGROUND-IMAGE:url(jn1.jpg);
+	MARGIN-LEFT:30px;
+	WIDTH:250px;
+	LINE-HEIGHT:16px;
+	BACKGROUND-REPEAT:no-repeat;
+	HEIGHT:400px
+}
+#jns2 {
+	FLOAT:left;
+	BACKGROUND-IMAGE:url(jn2.jpg);
+	MARGIN-LEFT:30px;
+	WIDTH:250px;
+	LINE-HEIGHT:16px;
+	BACKGROUND-REPEAT:no-repeat;
+	HEIGHT:400px
+}
+#jns3 {
+	FLOAT:left;
+	BACKGROUND-IMAGE:url(jn3.jpg);
+	MARGIN-LEFT:30px;
+	WIDTH:250px;
+	LINE-HEIGHT:16px;
+	BACKGROUND-REPEAT:no-repeat;
+	HEIGHT:400px
+}

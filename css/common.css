@@ -1,0 +1,279 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 16:43:18 十二月 10, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 5:24:23 一月 8, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* CSS Document */
+/* \*/
+#body {
+	width:100%;
+	min-width:750px;
+	height:510px;
+	text-align:center;
+	position:absolute;
+	top:5px;
+	left:0;
+}
+/*  */
+#wrapper {
+	width:750px;
+	height:510px;
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+	overflow:hidden;
+	background-color: #E2CFA4;
+}
+#left {
+	float:left;
+	width:224px;
+	height:510px;
+	overflow:auto;
+	background-image: url(/images/bg_left.jpg);
+	background-repeat: no-repeat;
+}
+#left_faq {
+	float:left;
+	width:224px;
+	height:510px;
+	overflow:auto;
+	background-image: url(/images/faq_left.jpg);
+	background-repeat: no-repeat;
+}
+#left_news {
+	float:left;
+	width:224px;
+	height:510px;
+	overflow:auto;
+	background-image: url(/images/news_left.jpg);
+	background-repeat: no-repeat;
+}
+#left_exp {
+	float:left;
+	width:224px;
+	height:510px;
+	overflow:auto;
+	background-image: url(/images/exp_left.jpg);
+	background-repeat: no-repeat;
+}
+#left_pic {
+	float:left;
+	width:224px;
+	height:510px;
+	overflow:auto;
+	background-image: url(/images/pic_left.jpg);
+	background-repeat: no-repeat;
+}
+#left_down {
+	float:left;
+	width:224px;
+	height:510px;
+	overflow:auto;
+	background-image: url(/images/down_left.jpg);
+	background-repeat: no-repeat;
+}
+#left_forum {
+	float:left;
+	width:224px;
+	height:510px;
+	overflow:auto;
+	background-image: url(/images/forum_left.jpg);
+	background-repeat: no-repeat;
+}
+#logo {
+	width:167px;
+	height:108px;
+	position:absolute;
+	left:16px;
+	top:29px;
+}
+#logo_link {
+	width:200px;
+	height:48px;
+	position:absolute;
+	bottom:20px;
+	left:10px;
+}
+#right {
+	float:left;
+	width:526px;
+	height:510px;
+	overflow:auto;
+	background-image: url(/images/bg_right.jpg);
+	background-repeat: no-repeat;
+	position:relative;
+}
+.conner {
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#nav {
+	width:522px;
+	height:22px;
+	margin:2px 0 26px 4px;
+}
+#nav div {
+	display:inline;
+	float:left;
+	height:22px;
+	padding-left:3px;
+}
+.ryt_body {
+	width:496px;
+	height:420px;
+	padding:0 18px 0 12px;
+	overflow:hidden;
+}
+.title {
+	display:inline;
+	float:left;
+	width:30px;
+	height:115px;
+	padding-top:14px;
+	padding-right:33px;
+}
+.content {
+	display:inline;
+	float:left;
+	width:400px;
+	height:406px;
+	overflow:auto;
+	padding:14px 28px 0 0;
+	background:url(/images/bgs.jpg) fixed;
+}
+.content_title {
+	width:346px;
+	height:33px;
+	padding-left:30px;
+	padding-top:6px;
+	background-image:url(/images/icon1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.content_detail {
+	width:380px;
+	font-size:14px;
+	overflow:visible;
+}
+.content_more {
+	width:380px;
+	height:17px;
+	text-align:right;
+}
+.content_pic {
+	display:inline;
+	float:left;
+	width:165px;
+	height:117px;
+	margin:10px;
+}
+.pic_bg {
+	width:165px;
+	height:117px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+}
+.pic_top {
+	width:165px;
+	height:117px;
+}
+.pic_btm {
+	width:165px;
+	text-align:center;
+}
+.exp_img {
+	display:inline;
+	float:left;
+	width:96px;
+	height:96px;
+}
+.exp_text {
+	display:inline;
+	float:left;
+	width:270px;
+	padding-left:8px;
+}
+.exp_title {
+	width:374px;
+	text-align:center;
+	font-weight:bold;
+}
+.content_screen {
+	display:inline;
+	float:left;
+	width:128px;
+	height:152px;
+	margin:0 20px 10px 20px;
+}
+.screen_btm {
+	width:108px;
+	text-align:center;
+	padding:10px;
+}
+.news_list {
+	width:364px;
+	padding-left:20px;
+}
+.waiting {
+	width:354px;
+	text-align:center;
+	margin-top:20px;
+}
+.news_title {
+	width:354px;
+	text-align:center;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+#bottom {
+	width:750px;
+	margin:5px auto;
+	color:#996633;
+	font-size:12px;
+}
+.copyright {
+	float:right;
+	width:500px;
+}
+.movie_left {
+	display:inline;
+	width:151px;
+	text-align: center;
+	float: left;
+	margin-left: 11px;
+}
+.movie_right {
+	display:inline;
+	width:195px;
+	float: left;
+	margin-left: 7px;
+}
+.movie_ryt {
+	padding-left:5px;
+	margin-left: 7px;
+}
+.buttons {
+	width:376px;
+	height:30px;
+	text-align:center;
+}
+.buttons img {
+	width:161px;
+	height:30px;
+	padding-left:20px;
+}
+.remark {
+	width:376px;
+	text-align:center;
+}

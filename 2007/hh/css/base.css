@@ -1,0 +1,41 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 14:36:13 二月 20, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:31:15 六月 18, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+*{ font-size:12px; line-height:170%;}
+body, p, form, ul, li{ padding:0; margin:0;}
+ul,li{list-style:none; float:left;}
+html,body{height:100%;}
+body{background:#000;}
+.TI1{text-indent:1em;}
+.TI2{text-indent:2em;}
+a{color:#D9D29C;text-decoration:underline;}
+
+#main{width:1014px; margin:auto auto;}
+#head{width:100%; height:107px; float:left; background:url(/2007/hh/images/0212_zt_01.jpg) center;}
+#mid{ width:100%; float:left; padding:20px 0;}
+#content{width:1014px; margin:0 auto;}
+#bg1{ width:100%; float:left;background:url(/2007/hh/images/0212_zt_06.jpg) left top;}
+#bg2{ width:100%; float:left; background: url(/2007/hh/images/0212_zt_04.jpg) top left no-repeat;}
+#bg3{ width:100%; height:475px; float:left; background:url(/2007/hh/images/0212_zt_09.jpg) bottom left no-repeat;}
+#mid_content{width:100%; height:415px; margin:0 auto;}
+#foot{width:100%; height:130px; float:left;text-align:center; background:url(/2007/hh/images/0212_zt_11.jpg) center bottom no-repeat;}
+#foot *{color:#432912; }
+
+.point_icon_r{ width:10px; height:17px; position:absolute;margin:-215px 0 0 990px ; background:url(/2007/hh/images/point_icon_r.gif); display:block;}
+.point_icon_l{ width:10px; height:17px; position:absolute;margin:-215px 0 0 15px ; background:url(/2007/hh/images/point_icon_l.gif); display:block;}#page {
+	text-align: center;
+	margin-top: 12px;
+}
+#page a {
+	color: #D9D29C;
+}

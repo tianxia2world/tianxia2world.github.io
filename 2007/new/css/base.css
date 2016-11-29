@@ -1,0 +1,327 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 14:34:03 二月 20, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:58:54 六月 18, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+body {
+	margin: 0px;
+	line-height: 170%;
+	font-size: 12px;
+	background-image: url(/2007/new/images/bg.gif);
+	background-repeat: repeat;
+}
+ul,li,form,p{padding:0; margin:0; list-style:none;}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#top {
+	width: 100%;
+	height: 107px;
+	background-image: url(/2007/new/images/top.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#body {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#content {
+	height: auto;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+}
+#cont_top {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+	position: relative;
+}
+#cont_top #back {
+	position: absolute;
+	left: 9px;
+	top: 89px;
+}
+#cont_top #back a {
+	color: #C19A78;
+}
+
+
+#content_top {
+	height: 10px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(/2007/new/images/con_top.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#content_cen {
+	height: auto;
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(/2007/new/images/con_cen.gif);
+	background-repeat: repeat-y;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#content_bot {
+	height: 10px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(/2007/new/images/con_bot.gif);
+	background-repeat: no-repeat;
+}
+#bot {
+	width: 100%;
+	height: 90px;
+	background-image: url(/2007/new/images/bot.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	bottom: 0px;
+}
+.left {
+	width: 154px;
+	height: auto;
+	padding-top: 3px;
+}
+#left {
+	width: 154px;
+	float: left;
+	height: auto;
+}
+.left_top {
+	height: 3px;
+	width: 154px;
+	background-image: url(/2007/new/images/left_top.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.left_cen {
+	height: auto;
+	width: 154px;
+	background-image: url(/2007/new/images/left_cen.gif);
+	background-repeat: repeat-y;
+	padding-bottom: 5px;
+}
+.left_bot {
+	height: 3px;
+	width: 154px;
+	background-image: url(/2007/new/images/left_bot.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.left_top01 {
+	height: 3px;
+	width: 154px;
+	background-image: url(/2007/new/images/left_top.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.left_cen01 {
+	height: auto;
+	width: 140px;
+	background-image: url(/2007/new/images/left_cen.gif);
+	background-repeat: repeat-y;
+	padding-right: 7px;
+	padding-left: 7px;
+	color: #B0723B;
+}
+.left_bot01 {
+	height: 3px;
+	width: 154px;
+	background-image: url(/2007/new/images/left_bot.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#right {
+	float: left;
+	height: auto;
+	width: 773px;
+	margin-left: 10px;
+	padding-top: 3px;
+}
+#right_top {
+	height: 2px;
+	width: 773px;
+	background-image: url(/2007/new/images/right_top.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#right_cen {
+	height: auto;
+	width: 743px;
+	background-image: url(/2007/new/images/right_cen.gif);
+	background-repeat: repeat-y;
+	padding: 15px;
+	color: #C9B49D;
+	font-size: 14px;
+	line-height: 170%;
+}
+#right_cen img {
+	border: 1px solid #AF6E2F;
+}
+
+#right_bot {
+	height: 3px;
+	width: 773px;
+	background-image: url(/2007/new/images/right_bot.gif);
+	background-repeat: no-repeat;
+}.clear_all {
+	clear: both;
+}
+#left_cen ul {
+	margin-bottom: 3px;
+}
+.root_close{
+	height:27px;
+	cursor:pointer;
+	background-image: url(/2007/new/images/left_command2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.root_close .text{display:none;}
+.root_close .text a {
+	color: #C19A78;
+}
+.root_open{
+	cursor:pointer;
+	background-image: url(/2007/new/images/left_command1.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.root_open .text{
+	height:18px;
+	padding-left:40px;
+	line-height:18px;
+	border-left:1px #441805 solid;
+	border-right:1px #441805 solid;
+	color:#C19A78;
+	background-image: url(/2007/new/images/command_bg.gif);
+	background-position: center bottom;
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 5px;
+	padding-top: 2px;
+}
+.root_open .text a {
+	color: #C19A78;
+}
+
+.root_title{ height:27px;}
+.root_title img{
+	margin-top: 6px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 35px;
+}
+.padding5 {
+	height:1px;
+	overflow: hidden;
+	padding-top: 5px;
+}
+
+.left_cen01 a:link{
+	color: #B0723B;
+	text-decoration: none;
+}
+.left_cen01 a:visited{
+	color: #B0723B;
+	text-decoration: none;
+}
+.left_cen01 a:hover{
+	color: #B0723B;
+	text-decoration: none;
+}
+#right_cen a:link{
+	color: #C9B49D;
+}
+#right_cen a:visited{
+	color: #C9B49D;
+}
+#right_cen a:hover{
+	color: #C9B49D;
+}
+#right_cen p{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#copyright {
+	height: auto;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #5B2D21;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#copyright a:link {
+	color: #5B2D21;
+}
+#copyright a:visited {
+	color: #5B2D21;
+}
+#copyright a:hover {
+	color: #5B2D21;
+}
+.table3{
+	background:#600000;
+	text-align:center;
+	font-size:12px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.table3 td {
+	border: 1px solid #393D35;
+	padding:2px;
+	background-color: #600000;
+	color:#E3B900;
+	font-size: 12px;
+}
+.border_left {
+	padding-left: 10px;
+	font-size: 12px;
+}
+#right_cen .border_left img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.border_left a {
+	font-size: 12px;
+}
+.blue {
+	color: #83A9BA;
+}
+.red {
+	color: #B98A64;
+}
+.title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #B98A64;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+<title>《天下贰》1.0.102版本重点解读-《天下贰》官方网站</title>
+<style type="text/css">
+<!--
+body {
+	margin: 0px;
+	color: #DECAC2;
+	font-size: 14px;
+	line-height: 170%;
+	background-image: url(images/bg.gif);
+	background-color: #580000;
+}
+#body {
+	width: 924px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.border {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #730000;
+	border-left-color: #730000;
+	background-color: #480000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 170%;
+}
+.border p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+a.arrow {
+	color: #DECAC2;
+	padding-left: 10px;
+	font-size: 13px;
+}
+a {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+#copyright {
+	background-repeat: no-repeat;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #CCA26C;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 200%;
+}
+.copy {
+	display: block;
+	cursor: hand;
+}
+#copyright a {
+	font-size: 12px;
+	color: #CCA26C;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+.a {
+	line-height: 14px;
+	padding-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.yellow {
+	font-weight: bold;
+	color: #D59E03;
+}
+
+#f_div{width:242px; height:182px; margin:10px auto 0 auto; overflow:hidden;}
+#f_div img{ border:1px #9D7D5E solid;}
+#f_outline{ position:absolute; margin:10px 0 0 11px !important; margin:0;width:240px; height:180px; background:url(images/tx2_pic_bg.gif);overflow:hidden;}
+#f_imgDiv{ height:100%; overflow:hidden;}
+#f_img{filter:progid:DXImageTransform.Microsoft.Fade(Overlap=1.00); border:0;}
+#f_infoDiv{top:-20px; position:relative;}
+#f_buttonDiv{padding-right:1px; height:20px; overflow:hidden; text-align:left;}
+#f_buttonDiv div{width:1px;height:20px; background:#fff; float:right;}
+#f_buttonDiv .bg{width:14px; height:20px; background:#fff; float:right; filter:Alpha(Opacity=40);}
+#f_buttonDiv a{width:14px;height:20px;float:right; color:#fff;font-family:Arial, Helvetica, sans-serif;font-size:10px;text-align:center;display:block;overflow:hidden;text-decoration:none;position:absolute;}
+#f_buttonDiv a:link,#f_buttonDiv a:visited,#f_buttonDiv a:active{color:#000;}
+#f_buttonDiv a:hover{background:#5F0900;color:#fff;}
+#f_buttonDiv a.on:link,#f_buttonDiv a.on:visited,#f_buttonDiv a.on:active,#f_buttonDiv a.on:hover{background:#5F0900;color:#fff;}
+#f_buttonDiv a.on:hover{background:#5F0900;}
+#f_text{height:26px; line-height:26px; overflow:hidden;text-align:center;}
+#f_text a:link,#f_text a:visited,#f_text a:active{color:#000;text-decoration: none;}
+#f_text a:hover{color:#FF6600;text-decoration: none;}
+-->
+
+</style>
+<script type="text/javascript">
+function copyToClipBoard(){
+var clipBoardContent="/2007/v102/";
+window.clipboardData.setData("Text",clipBoardContent);
+alert("复制地址成功,发送给你的好友吧");
+} 
+//document.write(this.location.href); //显示地址
+</script>
+<script language="JavaScript">
+var newWindow = null
+function windowOpen(loadpos)
+{	
+	if (loadpos != '')
+	{
+		newWindow = window.open(loadpos,"votesystem","dependent,width=300,height=200");
+		newWindow.focus();
+	}
+	else 
+	{
+		newWindow = window.open(loadpos,"votesystem","dependent,width=300,height=200");
+		newWindow.focus();
+		document.vote_form.submit();
+	}
+}
+</script>
+
+</head>
+
+<body>
+<div id="body"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/top_01.jpg" width="924" height="128" /></td>
+  </tr>
+  <tr>
+    <td><img src="images/top_02.jpg" width="924" height="121" border="0" usemap="#Map" /></td>
+  </tr>
+</table>
+<table width="803" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#390000">
+  <tr>
+    <td><img src="images/red_07.gif" width="803" height="3" /></td>
+  </tr>
+  <tr>
+    <td><img src="images/red_09.gif" width="803" height="59" /></td>
+  </tr>
+  <tr>
+    <td height="14">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="773" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><img src="images/red_12.gif" width="773" height="7" /></td>
+      </tr>
+      <tr>
+        <td class="border"><table width="750" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="65%" height="50" valign="top"><img src="images/red_16.gif" width="297" height="30" /></td>
+            <td width="35%">&nbsp;</td>
+          </tr>
+          <tr>
+            <td><p>　　《天下贰》是一款典型的东方世界的游戏，自然我们的主角们同样需要一张更为真实的东方人面孔，当1.0.102号大荒虎印衙门令颁布确定整个大荒世界的民众都需要整容的时候，人们沸腾了。</p>
+              <p>　　进入游戏，突然发现来来往往的朋友已经不是从前的那个她（他），一张鲜活的面孔跃然而出，看看这是真的吗？有些不感相信自己。突然又想到，仇人相见时，是否还能认得出呢#83，但突然又会想到这回她（他）终于可以赞美我的美，更帅更靓都是我们玩游戏的一大享受。</p>
+              <p>　　论坛热贴<a href="http://tx2.netease.com/viewthread.php?tid=66668" target="_blank" class="arrow">http://tx2.netease.com/viewthread.php?tid=66668</a></p></td>
+            <td><div id="f_div">
+	<!--图片区域-->
+	<div id="f_imgDiv"></div>
+	<div id="f_infoDiv">
+		<!--数字按钮区域-->
+		<div id="f_buttonDiv"></div>
+	</div>
+</div>
+
+<!--焦点文字区域-->
+<!--<div id="f_text" class="f12b"></div>-->
+<script>
+//可修改区域
+var imgWidth=240;
+var imgHeight=180;
+var _timeOut_=5000;
+var show_text = true; //是否显示焦点文字
+var timeOut=_timeOut_;
+var timeOut2=_timeOut_/2;//onmouseout img后需要切换的时间
+var now=0;              //第一张图
+var target="_blank";   //打开方式
+var button_on ='on'; //当前焦点对应按钮的样式名
+var button_off ='';//非当前焦点对应按钮的样式名
+
+//不可修改区域
+var imgUrl = new Array();
+//var imgText = new Array();
+var imgLink = new Array();
+var imgAlt= new Array();
+//var menuList = new Array();//菜单menu
+var ver=2; //兼容浏览器版本 默认2 为非ie
+var firstTime=true;
+var n =-1;
+
+imgUrl[++n]='images/pic1-1.jpg';
+imgLink[n]='http://tx2.netease.com/viewthread.php?tid=66668';
+imgAlt[n]='　';
+
+imgUrl[++n]='images/pic1-2.jpg';
+imgLink[n]='http://tx2.netease.com/viewthread.php?tid=66668';
+imgAlt[n]=' ';
+
+imgUrl[++n]='images/pic1-3.jpg';
+imgLink[n]='http://tx2.netease.com/viewthread.php?tid=66668';
+imgAlt[n]=' ';
+
+imgUrl[++n]='images/pic1-4.jpg';
+imgLink[n]='http://tx2.netease.com/viewthread.php?tid=66668';
+imgAlt[n]=' ';
+
+var count=0;
+for (i=0;i<imgUrl.length;i++) {
+if( (imgUrl[i]!="") && (imgLink[i]!="")&& (imgAlt[i]!="")) {
+count++;
+} else {
+break;
+}
+}
+
+function p(string){document.write(string);}
+function $(id){ return document.getElementById(id);}
+//固定图片size
+p("<style> #f_img { width:"+imgWidth+"px;height:"+imgHeight+"px;</style>");
+function change(){
+if (ver==1){
+with($('f_img').filters[0]){
+Transition=1;
+apply();
+play();
+}
+}
+if (firstTime){ firstTime=false;timeOut=_timeOut_/1000;}
+else{
+$('f_img').src=imgUrl[now];
+$('f_img').alt=imgAlt[now];
+$('f_imgLink').href=imgLink[now];
+//if (show_text) $('f_text').innerHTML=imgText[now];
+for (var i=0;i<count;i++) {
+$('button'+i).className="button";
+//$('f_menu'+i).className="";
+}
+$('button'+now).className="on";
+//$('f_menu'+now).className="on";
+now=(now>=imgUrl.length-1)?0:now+1;
+timeOut=_timeOut_;
+}
+theTimer=setTimeout("change()", timeOut);
+}
+function button_change(num){
+window.clearInterval(theTimer);
+now=num;
+firstTime=false;
+change();
+}
+//表现层 start
+//图片
+var a = document.createElement("a");
+a.id="f_imgLink";
+a.target=target;
+a.href=imgLink[now];
+$('f_imgDiv').appendChild(a);
+
+var img = document.createElement("img");
+img.id="f_img";
+img.width=imgWidth;
+img.height=imgHeight;
+img.src=imgUrl[now];
+img.alt=imgAlt[now];
+a.appendChild(img);
+
+//数字按钮
+for (var i=count-1;i>=0;i--){
+var div_bg = document.createElement("div");
+div_bg.id = 'div_bg'+i;
+div_bg.className='bg';
+$('f_buttonDiv').appendChild(div_bg);
+var a = document.createElement("a");
+a.id = 'button'+i;
+a.className = (i==now+1)?"button_on":"button_off";
+a.title=imgAlt[i];
+a.innerHTML=i+1;
+a.href='javascript:button_change('+i+')';
+$('div_bg'+i).appendChild(a);
+var div= document.createElement("div");
+$('f_buttonDiv').appendChild(div);
+}
+//if (show_text) $('f_text').innerHTML = imgText[now];
+//表现层 end
+$('f_img').onmouseover=function(){window.clearInterval(theTimer);}
+$('f_img').onmouseout=function(){theTimer=setTimeout("change()", timeOut2);}
+try{  //滤镜版本
+new ActiveXObject("DXImageTransform.Microsoft.Fade");
+$('f_img').filters[0].play();
+ver=1;
+}
+catch (e){ver=2;}
+var theTimer = setTimeout("change()", _timeOut_/1000);
+
+</script></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="images/red_19.gif" width="773" height="7" /></td>
+      </tr>
+    </table>
+      <br />
+      <table width="773" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img src="images/red_12.gif" width="773" height="7" /></td>
+        </tr>
+        <tr>
+          <td class="border"><table width="750" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="68%" height="50" valign="top"><img src="images/red_22.gif" width="486" height="30" /></td>
+                <td width="32%">&nbsp;</td>
+              </tr>
+              <tr>
+                <td>　　大荒虎印卫衙门在对天牢中的各类“刑事犯罪”案件进行仔细的调查后发现了许多冤假错案！皆为律法不严所致。为了重振纲常，特对大荒律法进行修订。轩辕王朝总管叶亢舟颁布1.102号大荒虎印衙门令，大赦天下之际，发布了最新的pk规则。　　　　　　　　　　　　　　　　<a href="/2007/1/26/423_143139.html" target="_blank" class="arrow">点击查看详细调整细节》》》</a>
+                  <p>　　对于pk规则的调整，众多玩家议论纷纷。究竟是遏制了恶意骗取骷髅情况发生，保护了正当防卫者的权益，还是仍存在漏洞，仍有不法分子钻律法的空子？一时间众玩家各抒己见，百家争鸣！</p>
+                  <p class="yellow"><strong>论坛热帖：</strong></p>
+                  <p class="a"><img src="images/arrow.gif" /><a href="http://tx2.netease.com/viewthread.php?tid=66621" target="_blank" class="arrow">关于1.0.102版本下PK规则的解读</a>　　<img src="images/arrow.gif" /><a href="http://tx2.netease.com/viewthread.php?tid=66142&amp;extra=page%3D4" target="_blank" class="arrow">小议102版PK模式</a></p>
+                  <p class="a"><img src="images/arrow.gif" /><a href="http://tx2.netease.com/viewthread.php?tid=66030&amp;extra=page%3D4" target="_blank" class="arrow">成败30秒－－解读新pk规则</a>　　　　 <img src="images/arrow.gif" /><a href="http://tx2.netease.com/viewthread.php?tid=66122&amp;extra=page%3D4" target="_blank" class="arrow">太虚对于新的pk系统仍旧没办法？</a></p>
+                  <p class="a"><img src="images/arrow.gif" /><a href="http://tx2.netease.com/viewthread.php?tid=66038&amp;extra=page%3D5" target="_blank" class="arrow">这样的ＰＫ规则合理吗？－浅谈天下贰1.0.102 版本：pk规则调整！</a></p>
+<p class="a"><img src="images/arrow.gif" /><a href="http://tx2.netease.com/viewthread.php?tid=66438&amp;extra=page%3D2" target="_blank" class="arrow">102版本 还是没有堵住骗骷髅的漏洞</a></p>
+<p class="a">&nbsp;</p>
+<p>　　不管如何，新规则已经启动。杀人越货，乱开杀戮者，大荒虎印卫衙门提醒您，“出来混，迟早是要还的！”。天降神雷，惩奸除恶，头顶数个骷髅的恶人们，今天你带避雷针了么？<br />
+                  </p></td>
+                <td><img src="images/pic3-1.jpg" width="254" height="389" /></td>
+              </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td><img src="images/red_19.gif" width="773" height="7" /></td>
+        </tr>
+      </table>
+      <br />
+      <table width="773" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img src="images/red_12.gif" width="773" height="7" /></td>
+        </tr>
+        <tr>
+          <td class="border"><table width="750" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="57%" height="50" valign="top"><img src="images/red_25.gif" width="410" height="30" /></td>
+                <td width="43%">&nbsp;</td>
+              </tr>
+              <tr>
+                <td colspan="2"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="43%"><img src="images/pic2-1.jpg" width="310" height="237" /></td>
+                    <td width="57%"><p>　　天很蓝，水很清，树很多<br />
+                        　　大荒的世界很美，却少了那么点生机……<br />
+                        　　人和动植物的和谐相处，才能构建一个生机勃勃的世界。过去的《天下贰》有了天，有了水，有了地；今天的大荒世界，海阔任鱼跃，天高任鸟飞！<br />
+                        　　在1.102版本的更新中，《天下贰》的世界开始生动起来。过去的天空中有白日的烈阳与流云，夜晚的繁星与皓月，现在的天空多了一群自由飞翔的鸟。过去的水里，有风吹的涟漪，有娇艳的荷花，现在的水里，多了一群嬉戏的鱼儿。过去的地面，有雄壮巍峨的高山，有茂密的树林，现在长出了一片片绿草，盛开出一朵朵鲜花！一幅绚丽的画卷在你我面前展开。天下贰的世界——生机盎然！</p>
+                      <p align="right">　　<a href="/2007/1/26/423_143139.html" target="_blank" class="arrow">点击查看美术资源调整细节》》》</a></p></td>
+                  </tr>
+                </table>
+                  </td>
+                </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td><img src="images/red_19.gif" width="773" height="7" /></td>
+        </tr>
+      </table>
+      <br />
+      <table width="773" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img src="images/red_12.gif" width="773" height="7" /></td>
+        </tr>
+        <tr>
+          <td class="border"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+
+              <tr>
+                <td width="100%"><table width="750" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="62%" valign="top"><table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="471" height="50" valign="top"><img src="images/red_29.jpg" width="213" height="30" /></td>
+                        </tr>
+                        <tr>
+                          <td><p>　　《天下贰》1.0.102版本终于更新完毕，可以很明显的看出，除了新增内容的更新，让整个世界看起来更真实以外，最大的特点就是增加了越来越贴心玩家的设置。取消势力在线人数限制、护时间由30秒增加为45秒、优化摆摊、师门任务的变身加速等等都是让玩家在游戏中更方便更直接的体会的游戏中的乐趣。让我们期待下一次版本更新的来临，巴蜀的会有怎样的任务，会有怎样的主角新人物造型，那些神秘而未及的大荒世界等待着我们踏上旅程。</p>
+                            <p align="right">点击进入 <a href="http://tx2.163.com" target="_blank" class="bg">官方网站</a> <a href="http://tx2.netease.com" target="_blank">游戏论坛</a></p></td>
+                        </tr>
+                      </table></td>
+                      <td width="38%" valign="top"><table border="0" align="right" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td height="50" valign="top"><img src="images/red_32.jpg" width="100" height="30" /></td>
+                        </tr>
+                        <tr>
+                          <td><form name="vote_form" target="votesystem" method="post" action="http://cgi.mmog.163.com/cgi-bin/votesystem/votemanage">
+	                        <p>　　
+	                          <input name="vote_id" type="hidden" value=237>
+	                          Q1. 您对本专题页面是否满意<br />
+	                          
+	                          　
+	                          <input type="radio" name="s1" value="1" />
+	                          非常满意     
+	                          <input type="radio" name="s1" value="2" />
+	                          比较满意      
+	                          <input type="radio" name="s1" value="3" />
+	                          一般<br />　
+	                          <input type="radio" name="s1" value="4" />
+	                          不太满意         
+	                          <input type="radio" name="s1" value="5" />
+	                          非常不满意</p>
+	                        <p>　　 Q2. 您对本次102版本更新的看法是<br />
+	                          
+	                          　
+	                            <input type="radio" name="s2" value="1" />
+	                          非常满意
+	                          <input type="radio" name="s2" value="2" />
+	                          比较满意
+	                          <input type="radio" name="s2" value="3" />
+	                          一般<br />
+	                          　
+	                          <input type="radio" name="s2" value="4" />
+	                          不太满意
+	                          <input type="radio" name="s2" value="5" />
+	                          非常不满意</p>
+	                        <p>　　 Q3.您觉得本次专题报道是否及时？<br />
+	                          
+	                          　
+	                            <input type="radio" name="s3" value="1" />
+	                          非常及时
+	                          <input type="radio" name="s3" value="2" />
+	                          比较及时
+	                          <input type="radio" name="s3" value="3" />
+	                          一般<br />        
+	                          
+	                          　
+	                          <input type="radio" name="s3" value="4" />
+	                          不太及时
+	                          <input type="radio" name="s3" value="5" />
+	                          很不及时 </p>
+	                        <p align="center">
+                              <input name="submit" type="submit" onclick="windowOpen('');return false" value="提交" />
+                            </p></form></td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td><img src="images/red_19.gif" width="773" height="7" /></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="50"><div align="center" onclick="copyToClipBoard()" class="copy">复制本页地址，推荐给好友</div></td>
+        </tr>
+      </table>
+      </td>
+  </tr>
+</table>
+<div id="copyright">
+<a href="http://corp.163.com/index_eng.html">About 
+   NetEase</a> - <a href="http://corp.163.com/index_gb.html">公司简介</a> 
+   - <a href="http://gb.corp.163.com/gb/contactus.html">联系方法</a> 
+   - <a href="http://corp.163.com/gb/job/job.html">招聘信息</a> - <a href="http://gb.corp.163.com/gb/cs.html">客户服务</a> 
+   - <a href="http://corp.163.com/gb/legal/legal.html">相关法律</a> - 
+ <a href="http://power.163.com/adpage/salescenter/index.html">广告服务</a> - <a href="http://nie.163.com/job/" target="_blank">网易互动招聘</a><br />
+   网易公司版权所有 &copy;1997-2007
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: url(images/bg.gif) #000; MARGIN: 0px; COLOR: #ffcc00; HEIGHT: 100%
+}
+#head {
+	BACKGROUND: url(images/head_bg.jpg) no-repeat center top; MARGIN: 0px auto; WIDTH: 1004px; HEIGHT: 107px
+}
+#main {
+	BACKGROUND-IMAGE: url(images/bgc.jpg); MARGIN: 13px auto; WIDTH: 960px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 542px
+}
+#content {
+	MARGIN: 5px; WIDTH: 950px; HEIGHT: 532px
+}
+#menu {
+	CLEAR: both; BACKGROUND-POSITION: center bottom; BACKGROUND-IMAGE: url(images/hr.gif); MARGIN-LEFT: auto; WIDTH: 900px; MARGIN-RIGHT: auto; BACKGROUND-REPEAT: no-repeat; HEIGHT: 24px
+}
+#menu_con {
+	MARGIN-LEFT: 150px
+}
+#menu P {
+	FLOAT: left; BACKGROUND-IMAGE: url(images/mbg.gif); MARGIN: 0px 5px; WIDTH: 63px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 21px
+}
+#menu SPAN {
+	DISPLAY: block; FONT-WEIGHT: bold; WIDTH: 60px; LINE-HEIGHT: 21px; LETTER-SPACING: 2px; TEXT-ALIGN: center
+}
+#jn {
+	CLEAR: both; MARGIN-LEFT: auto; WIDTH: 900px; MARGIN-RIGHT: auto; HEIGHT: 400px
+}
+#jn IMG {
+	FLOAT: left; BORDER-TOP-STYLE: none; MARGIN-RIGHT: 1px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#jn SPAN {
+	MARGIN-TOP: 0px; DISPLAY: block; FLOAT: left; MARGIN-LEFT: 8px; WIDTH: 72px; TEXT-ALIGN: center
+}
+.jns {
+	FLOAT: left; BACKGROUND-IMAGE: url(images/jn.jpg); MARGIN-LEFT: 30px; WIDTH: 250px; LINE-HEIGHT: 16px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 400px
+}
+.jnt {
+	MARGIN-TOP: 61px; MARGIN-LEFT: 28px; WIDTH: 195px; HEIGHT: 286px
+}
+.jnp {
+	CLEAR: both; MARGIN-TOP: 1px; MARGIN-BOTTOM: 16px; MARGIN-LEFT: 1px; WIDTH: 190px; COLOR: #ffffff; HEIGHT: 34px
+}
+.px10 {
+	WIDTH: auto; HEIGHT: 10px
+}
+.tt {
+	MARGIN-LEFT: 10px
+}
+.white {
+	COLOR: #ffffff
+}
+#jnmain {
+	CLEAR: both; DISPLAY: none; FILTER: Alpha(Opacity=85); LEFT: -5px; BACKGROUND-IMAGE: url(images/jnc.jpg); MARGIN: 0px; OVERFLOW: hidden; WIDTH: 238px; BACKGROUND-REPEAT: repeat-y; POSITION: absolute; TOP: 0px; HEIGHT: auto
+}
+#jnmain P {
+	MARGIN: 2px
+}
+#jnmain TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#jnmain TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 108px; PADDING-TOP: 0px; HEIGHT: auto
+}
+#jnmain_top {
+	BACKGROUND-IMAGE: url(images/jnt.jpg); WIDTH: 238px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 10px
+}
+#jnmain_con {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; WIDTH: 218px; PADDING-TOP: 10px; HEIGHT: auto
+}
+#jnmain_bot {
+	BACKGROUND-POSITION: 0px 5px; BACKGROUND-IMAGE: url(images/jnb.jpg); WIDTH: 238px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 15px
+}
+#jn_title {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; COLOR: #0198ff
+}
+#jn_jj {
+	MARGIN-BOTTOM: 8px
+}
+#jn_btn {
+	MARGIN-LEFT: auto; WIDTH: 900px; MARGIN-RIGHT: auto; HEIGHT: 50px
+}
+#jn_btn_more {
+	LINE-HEIGHT: 25px; MARGIN-RIGHT: 60px; TEXT-ALIGN: right
+}
+#copyright {
+	BACKGROUND: url(images/foot_bg.jpg) no-repeat center bottom; MARGIN: 13px auto 0px; WIDTH: 1004px; COLOR: #cccccc; HEIGHT: 130px
+}
+#copyright A {
+	COLOR: #cccccc
+}
+A:link {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.now:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.now:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+#foot {
+	TEXT-ALIGN: center
+}
+#txt_pic_1 {
+	BACKGROUND: url(images/txt_pic_03.jpg) no-repeat center 50%; FLOAT: left; WIDTH: 24px; HEIGHT: 350px
+}
+#copyright {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; TEXT-ALIGN: center
+}
+#copyright p { margin:4px 0;}
+#remark {
+	FONT-SIZE: 12px; PADDING-BOTTOM: 7px; COLOR: #965434; TEXT-ALIGN: center
+}
+#remark A {
+	COLOR: #965434; TEXT-DECORATION: underline
+}

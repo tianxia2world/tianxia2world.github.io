@@ -1,0 +1,87 @@
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: url(bg.gif) #000; MARGIN: 0px; COLOR: #ffcc00; HEIGHT: 100%
+}
+#head {
+	BACKGROUND: url(head_bg.jpg) no-repeat center top; MARGIN: 0px auto; WIDTH: 1004px; HEIGHT: 107px
+}
+#main {
+	BACKGROUND-IMAGE: url(bgc.jpg); MARGIN: 0px auto; WIDTH: 960px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 542px
+}
+#content {
+	MARGIN: 5px; WIDTH: 950px; HEIGHT: 532px
+}
+
+#jn {
+	CLEAR: both; MARGIN-LEFT: auto; WIDTH: 905px; MARGIN-RIGHT: auto; HEIGHT: 400px
+}
+
+.px10 {
+	WIDTH: auto; HEIGHT: 10px
+}
+.tt {
+	MARGIN-LEFT: 10px
+}
+.white {
+	COLOR: #ffffff
+}
+
+
+#copyright {
+	BACKGROUND: url(foot_bg.jpg) no-repeat center bottom; MARGIN: -40px auto 0px; WIDTH: 1004px; COLOR: #cccccc; HEIGHT: 130px
+}
+#copyright A {
+	COLOR: #cccccc
+}
+A:link {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.now:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.now:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+#foot {
+	TEXT-ALIGN: center
+}
+
+#copyright {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; TEXT-ALIGN: center
+}
+#remark {
+	FONT-SIZE: 12px; PADDING-BOTTOM: 7px; COLOR: #965434; TEXT-ALIGN: center
+}
+#remark A {
+	COLOR: #965434; TEXT-DECORATION: none
+}
+.title1{FONT-SIZE: 20px;}
+.title2{FONT-SIZE: 14px;}
+
+#biaoge {
+margin:0px auto;
+
+}                                               
+#biaoge li{
+list-style-type:none;         
+width:280px;          
+height:40px;          
+line-height:40px;   
+border: solid 2px #941415; 
+text-align:center;       
+float:left;          
+margin-left:1px;         
+margin-bottom:1px;      
+}            
+               

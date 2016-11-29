@@ -1,0 +1,152 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 23:29:11 二月 2, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 6:17:37 四月 21, 2012.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	font: 14px Arial, Helvetica, sans-serif;
+	line-height: 170%;
+	text-align:center;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+p{
+	margin:5px 0;
+}
+blockquote{
+	margin:0 10px;
+}
+.indent {
+	text-indent: 28px;
+}
+
+.copyright {
+	font-size: 12px;
+	line-height: 20px;
+	color:#664901;
+}
+h1{
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+a:link{color: #003399;text-decoration:underline;}
+a:visited{color: #003399;text-decoration:underline;}
+a:hover{color: #E3B822;text-decoration:underline;}
+a:active{color: #E3B822;text-decoration:none;}
+a.copy:link {font-size: 12px;color: #664901;text-decoration: none;}
+a.copy:visited{font-size: 12px;color: #664901;text-decoration:none;}
+a.copy:hover {font-size: 12px;color: #E3B822;text-decoration:underline;}
+a.copy:active {font-size: 12px;color: #E3B822;text-decoration:underline;}
+a.red:link {color: #CF6402;text-decoration:none;}
+a.red:visited{color: #CF6402;text-decoration:none;}
+a.red:hover {color: #CF6402;text-decoration:none;}
+a.red:active {color: #CF6402;	text-decoration:none;}
+a.blue:link {font-size: 12px;color: blue;text-decoration:none;}
+a.blue:visited{font-size: 12px;color: blue;text-decoration:none;}
+a.blue:hover {font-size: 12px;color: red;text-decoration:underline;}
+a.blue:active {font-size: 12px;color: red;	text-decoration:underline;}
+a.purple:link {font-size: 12px;color: #FF0066;text-decoration:none;}
+a.purple:visited{font-size: 12px;color: #FF0066;text-decoration:none;}
+a.purple:hover {font-size: 12px;color: #FF0066;text-decoration:underline;}
+a.purple:active {font-size: 12px;color: #FF0066;	text-decoration:underline;}
+a.black:link {color: #666;text-decoration: none;}
+a.black:visited{color: #666;text-decoration:none;}
+a.black:hover {color: #000;text-decoration:underline;}
+a.black:active {color: #000;text-decoration:underline;}
+.red {
+	color:red;
+}
+.table2 {
+	border: 1px solid #999999;
+	background-color: #F2F2F2;
+}
+.red1{
+	color:#FF3300;
+}
+.orange{
+	color:#FF6600;
+}
+.coffee{
+	color:#62430c;
+}
+.blue {
+	color:blue;
+}
+.fuchsia {
+	color:fuchsia;
+}
+.interrelated {
+	color:#003399;
+}
+.purple {
+	color: #FF0066;
+}
+.b {
+	font-weight:bold;
+}
+.clearleft{
+	clear:left;
+}
+.clearright {
+	clear: right;
+}
+.clearboth {
+	clear: both;
+}
+.small {
+	font-size:12px;
+}
+.tablepad {
+	border: 0px;
+	font-size: 14px;
+	line-height: 170%;
+	color:#000000;
+	background-color: #cccccc;
+	margin: 0px auto;
+	padding: 0px;
+}
+.tablepad td{
+	padding-left:5px;
+	padding-right:5px;
+    padding-top:1px;
+	padding-bottom:1px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+.tablepad tr{
+	background-color: #FFFFFF;
+
+}
+.tablepadblue{
+	background-color: #f9f9f9;
+	color: #0000FF;
+}
+.bottom{
+	width:1000px;
+	height:78px;
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	font-size:12px;
+}

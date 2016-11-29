@@ -1,0 +1,158 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 14:35:13 二月 20, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:11:17 四月 20, 2012.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* 重写 start */
+#banner1{background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_banner_02.jpg) center no-repeat;}
+#banner2{background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_banner_03.jpg) center no-repeat;}
+#head_line{background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/new_head_line.gif) center no-repeat;}
+#main_inner{background: none;}
+#mid_inner{ float:left;height:auto !important; height:800px; min-height:800;background:#7F0400; border-left:1px #9D7D5E solid; border-right:1px #9D7D5E solid;}
+#mid_bg_tl{background: none;}
+#mid_bg_tr{background: none;}
+#foot_top{background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/new_foot_line.gif) center top no-repeat;}
+/* 重写 end */
+
+/* 门派首页 mid */
+#mp_mid_in{ width:642px; margin:0 auto;}
+#mp_mid_top{width:547px; height:35px; padding:65px 0 0 95px; color:#FFECE5; float:left;background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_index_mid_03.jpg);}
+#mp_mid_bot{ width:642px; margin-top:5px; float:left;background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_index_mid_08.jpg);}
+#mp_mid_bot_bg1{width:100%;float:left; background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_index_mid_06.jpg) top no-repeat;}
+#mp_mid_bot_bg2{width:100%; height:auto !important; height:740px; min-height:740px; padding-top:110px;float:left;background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_index_mid_10.jpg) bottom no-repeat;}
+.pic_box{ text-align:center; margin-top:17px;}
+.pic_box img{margin:0 15px;}
+
+/* 门派 right item */
+.mp_r_box1{ width:151px; padding:14px 10px; float:left; background:#010000 url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_r_box_31.jpg) no-repeat left top;}
+.mp_r_box2{ width:151px; padding:14px 10px; float:left; background:#300100 url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_r_box_11.jpg) no-repeat left top;}
+.mp_r_box_title{ width:151px; padding-left:20px; margin-bottom:8px; background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_r_box_title_icon.gif) no-repeat left top;}
+.mp_vote_line1{ width:100%; margin:10px 0 5px 0; float:left;}
+.mp_vote_line1 .col1{ width:117px;color:#F3C6C0; float:left; overflow:hidden;}
+.mp_vote_line1 .col2{width:33px;overflow: hidden; float:right;}
+.mp_vote_line1 .col2 *{
+	width:33px;
+	height:15px;
+	line-height:17px;
+	overflow: hidden;
+	display:block;
+	color:#F3C6C0;
+	text-align:center;
+	background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_r_box_button.gif);
+	cursor:pointer;
+
+}
+.mp_vote_line2{ width:100%; height:9px; overflow:hidden; float:left; border:1px #542C22 solid;}
+.mp_vote_line2 li{ float:left; height:9px; overflow:hidden; background:#7F0400;}
+
+.mp_list ul{ padding-left:14px; width:11em; height:1.75em; overflow:hidden; background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_r_box_icon2.gif) 0 6px no-repeat;}
+.mp_list a,.mp_list a:hover{color:#F3C6C0;}
+
+/* 各门派 */
+#mp_list_nav{ position:absolute; width:634px; height:28px; background:none;overflow:hidden; margin:6px 0 0 4px !important; margin:6px 0 0 0; }
+#mp_list_nav a{width:57px; height:28px; float:left;display:block; background-repeat:no-repeat;}
+#mp_nav1.on{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_on_03.gif);}
+#mp_nav2.on{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_on_04.gif);}
+#mp_nav3.on{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_on_05.gif);}
+#mp_nav4.on{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_on_06.gif);}
+#mp_nav5.on{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_on_07.gif);}
+#mp_nav6.on{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_on_08.gif);}
+#mp_nav7.on{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_on_09.gif);}
+#mp_nav8.on{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_on_10.gif);}
+#mp_nav1{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_off_03.gif);}
+#mp_nav2{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_off_04.gif);}
+#mp_nav3{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_off_05.gif);}
+#mp_nav4{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_off_06.gif);}
+#mp_nav5{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_off_07.gif);}
+#mp_nav6{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_off_08.gif);}
+#mp_nav7{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_off_09.gif);}
+#mp_nav8{ background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_nav_off_10.gif);}
+
+#mp_list_mid{width:634px; padding:32px 0 5px 0; margin:0 auto;}
+#mp_list_mid_bg{width:100%; float:left; background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_mid_06.gif) repeat-y left;}
+#mp_list_mid_topBg{width:100%; float:left; background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_mid_03.gif) left top no-repeat;}
+#mp_list_mid_botBg{width:100%; height:900px; float:left;background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_mid_08.gif) no-repeat left bottom;}
+
+#mp_list_introBox{ position:absolute; width:80px; margin:40px 0 0 20px;}
+#mp_list_introBox *{color:#FEE5E2; text-decoration:underline;}
+#mp_list_introBox_top{width:80px;height:12px; float:left;background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_mid_box_07.gif);overflow:hidden;}
+#mp_list_introBox_mid{width:80px;height:auto !important; padding:5px 0;float:left;text-align:center;background: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_mid_box_09.gif) repeat-y;}
+#mp_list_introBox_bot{width:80px;height:12px; float:left;background:url(http://web.archive.org/web/20070220143513/http://tx2.163.com/images/mp_list_mid_box_11.gif); overflow:hidden;}
+
+#mp_list_content_bg1{width:100%; float:left; margin-top:2px;}
+#mp_list_content_bg2{
+	width:100%;
+	height:507px;
+	float:left;
+	position: relative;
+	background-color: #4C0200;
+}
+
+#mp_list_mid_text{ width:340px; padding:290px 0 0 35px;}
+#mp_list_mid_text div{
+	height: 210px;
+	overflow: auto;
+}
+#mp_list_mid_text *{ font-size:12px;color:#FFD8D3;}
+#mp_list_mid_text .title{ font-weight:bold;color:#FFA820;}
+#mp_list_mid_text a{text-decoration:underline;}
+
+.mp_list_pic_l{width:368px; float:left; padding:22px 29px 0 19px;overflow:hidden;}
+.mp_list_pic_l img{border:1px #9F6B37 solid;}
+.mp_list_pic_r{ width:197px; padding-top:22px;  float:left;overflow:hidden;}
+.mp_list_pic_r img{ border:1px #8E552C solid; margin-bottom:19px;}
+.mp_list_pic_bq{
+	padding-top:22px;
+	overflow:hidden;
+	text-align: center;
+}
+.mp_list_pic_bq .td{
+	overflow:hidden;
+	position: relative;
+	height: 134px;
+	width: 139px;
+	float: left;
+	background-image: url(http://web.archive.org/web/20070220143513/http://tx2.163.com/introduce/mp/images/mq_bg.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: center;
+}
+#text_info_2,#text_info_3,#text_info_4,#text_info_5,#pic_info_2,#pic_info_3,#pic_info_4,#pic_info_5{display:none;}
+.back {
+	position: absolute;
+	left: 553px;
+	top: 6px;
+}
+.pic_border {
+	height: 140px;
+	width: 182px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.pic_border img {
+	width: 182px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.pic_border .imgb {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.pic_border .border {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 140px;
+	width: 182px;
+}

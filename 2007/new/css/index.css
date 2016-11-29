@@ -1,0 +1,29 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 7:54:38 ?? 24, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:58:55 ?? 18, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+
+/* Ê×Ò³ */
+#index_topBg{ width:958px; float:left;background: url(/2007/new/images/index_bg_03.jpg) no-repeat top left;}
+#index_botBg{width:958px; height:449px; float:left; background:url(/2007/new/images/index_bg_05.jpg) no-repeat bottom left;}
+
+#index_nav{position:absolute; width:90px; margin:12px 0 0 864px; }
+#index_nav a{ width:83px; height:20px;display:block; float:left; overflow:hidden;}
+
+#menu div{ width:118px; position:absolute;}
+#menu img{margin-bottom:1px; float:left;}
+#menu1{margin:83px 0 0 95px;}
+#menu2{margin:286px 0 0 174px;}
+#menu3{margin:124px 0 0 363px;}
+#menu4{ margin:186px 0 0 560px;}
+#menu5{ margin:307px 0 0 550px;}
+#menu6{ margin:273px 0 0 742px;}

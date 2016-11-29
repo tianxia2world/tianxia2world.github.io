@@ -1,0 +1,242 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 12:02:11 ?? 17, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:00:42 ?? 18, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* ÷ÿ–¥ start */
+#head_line{background: url(/images/new_head_line_s.gif) center no-repeat;}
+#mid{width:576px; margin-left:10px; float:left; overflow:hidden;}
+#main_inner{ width:985px; margin:0 auto; overflow:hidden; background:url(/images/tx2_mid_bot_bg_s.gif) repeat-y 160px;}
+#mid_inner{
+	float:left;
+	height:auto !important;
+	height:800px;
+	min-height:800;
+	background:#7F0400;
+	border-left:1px #9D7D5E solid;
+	border-right:1px #9D7D5E solid;
+	width: 574px;
+}
+
+#list_top_t{ width: 565px;margin:0 auto; padding-top:13px;background:url(/images/tx2_list_03_s.jpg) no-repeat top;}
+#list_top_m{ width:100%; padding:2px 0; background:url(/images/tx2_list_05_s.jpg) repeat-y top;}
+#list_top_m a{ color:#FFEEC8;}
+#list_top_b{ padding-bottom:13px; background:url(/images/tx2_list_06_s.jpg) no-repeat bottom;}
+
+#mid_bg_tl{background: none;}
+#mid_bg_tr{background: none;}
+#foot_top{background: url(/images/new_foot_line_s.gif) center top no-repeat;}
+
+#mid_art{background:url(/images/tx2_art_mid_05_s.gif) repeat-y center;}
+#mid_art_bg{
+	background:#510200 url(/images/tx2_art_mid_05_s.gif) repeat-y;
+	width: 558px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#art_mid_bg_t{background:url(/images/tx2_art_mid_03_s.jpg) top no-repeat;}
+#art_mid_bg_b{ width:506px;margin:0 auto; padding:26px 26px 100px; background:url(/images/tx2_art_mid_07_s.gif) no-repeat center bottom;}
+#right{
+	width:249px;
+	float:left;
+	overflow:hidden;
+	background-image: url(/images/inner_r_bg.gif);
+	background-repeat: repeat-y;
+}
+#right * {
+	color: #C88F71;
+}
+#right #bg {
+	background-image: url(/images/inner_r_bottom.gif);
+	background-repeat: no-repeat;
+	background-position: 0px bottom;
+}
+
+#right .bar {
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+	background-image: url(/images/inner_r_bar.gif);
+	background-repeat: no-repeat;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-position: center;
+}
+
+/* ÷ÿ–¥ end */
+
+/* √≈≈… right item */
+.inner_r_box{padding:14px 10px; }
+#right .dot {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #C88F71;
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.blank9 {	font-size: 1px; margin: 0px auto; width: 100%; height: 9px
+}
+.spe {
+	clear: both;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFCA56;
+}
+#right .spe a {
+	font-weight: bold;
+	color: #FFCA56;
+}
+.focuspic {
+	padding-right: 0px;
+	padding-left: 0px;
+	float: left;
+	padding-bottom: 0px;
+	width: 250px;
+	padding-top: 5px;
+	color: #d0b299;
+}
+.focuspic .pic {
+	margin: 0px auto; width: 240px
+}
+#focuspic1 .pic img {
+	border: 1px solid #997759;
+	margin-right: auto;
+	margin-left: auto;
+}
+.focuspic .pic h2 {
+	padding-right: 0px;
+	padding-left: 0px;
+	font-weight: 100;
+	font-size: 18px;
+	padding-bottom: 3px;
+	margin: 0px auto;
+	width: 234px;
+	padding-top: 8px;
+	text-align: left;
+}
+#right h2 a{
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 2px;
+	margin: 0px auto;
+	width: 234px;
+	padding-top: 2px;
+	text-align: left;
+	color: #d77e16;
+}
+.focuspic .pic p {
+	padding-right: 0px; padding-left: 3px; padding-bottom: 6px; margin: 0px; width: 234px; line-height: 160%; padding-top: 0px; text-align: left
+}
+.focuspic .pic p a {
+	color: #e84c00; text-decoration: underline
+}
+.focuspic .pic p a:hover {
+	color: #000
+}
+.right120 {	padding-right: 0px; border-top: #b2b2b2 1px solid; padding-left: 0px; padding-bottom: 0px; margin: 0px auto; width: 250px; padding-top: 3px
+}
+.rightfocuspic {	clear: both; padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px auto; width: 250px; padding-top: 5px
+}
+.rightlist {	margin: 0px auto; width: 220px
+}
+.righttitle {
+	clear: both;
+	margin: 0px auto;
+	width: 230px;
+	height: 14px;
+	background-image: url(/images/inner_r_title_bg.gif);
+	background-repeat: no-repeat;
+	background-position: 100px 50%;
+}
+.righttitle .title {
+	padding-right: 6px;
+	padding-left: 25px;
+	background: url(/images/i9.gif) no-repeat left 50%;
+	float: left;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 20px;
+	line-height: 25px;
+	font-weight: bold;
+}
+.righttitle .title a:visited {
+	color: #000
+}
+.righttitle .more {
+	padding-right: 0px;
+	background: no-repeat left 50%;
+	float: right;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 14px;
+	display: inline;
+}
+.righttitle .more a:visited {
+	color: #000
+}
+.rightcontent {
+	clear: both;
+	margin: 0px auto;
+	width: 234px;
+}
+.rightcontent h2 {
+	clear: both;
+	padding-right: 0px;
+	padding-left: 3px;
+	font-weight: 100;
+	font-size: 18px;
+	text-align: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.rightcontent ul {
+	clear: both; padding-right: 0px; padding-left: 0px; padding-bottom: 8px; padding-top: 8px}
+.rightcontent li {
+	clear: both; padding-right: 0px; padding-left: 20px; background: url(/images/mp_r_box_icon2.gif) no-repeat 10px 50%; padding-bottom: 0px; padding-top: 0px; list-style-type: none; text-align: left
+}
+.rightcontent li a {
+	color: #6699cc}
+.rightcontent h3 a {
+	color: #1f3a87
+}
+.rightcontent h4 a {
+	color: #1f3a87
+}
+.rightcontent li a:hover {
+	color: #bc2931
+}
+.rightcontent img {
+	border-right: #000 1px solid; border-top: #000 1px solid; float: left; margin: 0px 8px; border-left: #000 1px solid; border-bottom: #000 1px solid
+}
+.rightcontent p {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; line-height: 170%; padding-top: 0px; text-align: left
+}
+#art_text .bbsurl {
+	width: 487px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #BF9C68;
+	font-size: 12px;
+	padding-right: 7px;
+	padding-left: 7px;
+	height: 24px;
+	background-image: url(/images/bbsurl_bg_s.gif);
+	background-repeat: no-repeat;
+	line-height: 24px;
+	text-align: center;
+	overflow: hidden;
+}
