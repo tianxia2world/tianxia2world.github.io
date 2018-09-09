@@ -1,0 +1,77 @@
+.clear {
+clear: both;
+font-size: 1px;
+line-height: 1px;
+height: 1px;
+}
+/* left */
+#button img{margin-bottom:7px;}
+.menu{width:143px;padding:5px 2px; border:1px #441805 solid;}
+.menu ul{margin-bottom:3px;}
+.site_menu{ width:143px; height:27px; background:url(/images/tx2_left_09.jpg); cursor:pointer;}
+.site_menu img{margin:6px 0 0 30px;}
+.root_close{ height:27px; background:url(/images/tx2_left_13.jpg) top center no-repeat; cursor:pointer;}
+.root_close .text,.root_close .textnobg,.root_close_2 .text,.root_close_2 .textnobg{display:none;}
+.root_open{background:url(/images/tx2_left_16.jpg) top center no-repeat; cursor:pointer;}
+.root_open_no{background:url(/images/tx2_left_16_1.jpg) top center no-repeat; cursor:pointer;}
+.root_open .text,.root_open_2 .text{margin:0 5px;height:20px;padding-left:40px;line-height:20px; border-left:1px #441805 solid;border-right:1px #441805 solid;color:#ADA08B; background: url(/images/tx2_left_19.gif) center bottom;}
+.root_open .textnobg,.root_open_2 .textnobg{
+margin:0 5px;
+height:20px;
+line-height:20px;
+border-left:1px #441805 solid;
+border-right:1px #441805 solid;
+color:#986232;
+background: center bottom;
+text-align: center;
+}
+.root_title{ height:27px;}
+.root_title img{margin:6px 0 0 30px;}
+.root_open a{color:#ADA08B; }
+/* 与/js/show_menu.js 设置有关 当前栏目*/
+.root_open a.now_menu, .root_open_2 a.now_menu{ color:#C36B26; text-decoration:underline;}
+.site_menu_2{width:143px; height:27px;background:url(/images/fans_index_2_19.gif) top center no-repeat;cursor:pointer;}
+.site_menu_2 img{margin:6px 0 0 30px;}
+.root_open_2{background:url(/images/fans_index_2_close.gif) top center no-repeat; cursor:pointer;}
+.root_open_2 .text{margin:0 5px;height:20px;padding-left:40px;line-height:20px; border-left:1px #441805 solid;border-right:1px #441805 solid;color:#ADA08B; background: url(/images/tx2_left_19.gif) center bottom;}
+.root_open_2 a{color:#ADA08B; }
+.root_close_2{background:url(/images/fans_index_2_23.gif) top center no-repeat; cursor:pointer;}
+/* foot */
+#foot{
+width:985px;
+height:205px;
+background:url(/images/fans_index_2_35.jpg) top center;
+margin-top: 0;
+margin-right: auto;
+margin-bottom: 0;
+margin-left: auto;
+}
+#nie_logos{
+text-align:center;
+padding-top: 55px;
+padding-right: 0;
+padding-bottom: 20px;
+padding-left: 0;
+}
+#nie_logos img{margin:0 8px;}
+#nie_copyRight{
+text-align:center;
+color: #D0B299;
+}
+#nie_copyRight a{margin:0 7px;}
+#right_banner {
+margin-left: 1px;
+}
+.right_banner img {
+margin-top: 5px;
+margin-bottom: 5px;
+border: 1px solid #B48267;
+}
+.gotop {
+	border: 1px solid #F4DECC;
+	background-color: #430904;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.70;
+	opacity:0.70;
+	padding: 2px;
+}
