@@ -8,23 +8,71 @@
 <meta name="robots" content="index, follow">
 <meta name="googlebot" content="index, follow">
 <link rel="stylesheet" type="text/css" href="/css/base.css" media="all">
-<link rel="stylesheet" type="text/css" href="/css/com_base.css"/>
 <script language="javascript" type="text/javascript" src="/js/base.js"></script>
 <style type="text/css">
 <!--
-#f_div{width:235px; height:130px; overflow:hidden; float:left;}
-#f_div img{ border:1px #9D7D5E solid;}
-#f_imgDiv{width:235px; height:130px; background:#9D7D5E;overflow:hidden;}
-#f_img{filter:progid:DXImageTransform.Microsoft.Fade(Overlap=1.00); border:0;}
-#f_infoDiv{ top:-15px; position:relative;}
-#f_buttonDiv{padding-right:1px; height:14px; overflow:hidden; text-align:left;}
-#f_buttonDiv div{width:1px;height:14px; background:#fff; float:right;}
-#f_buttonDiv .bg{width:14px; height:14px; background:#fff; float:right; filter:Alpha(Opacity=40);}
-#f_buttonDiv a{width:14px;height:14px;float:right; color:#fff;font-family:Arial, Helvetica, sans-serif;font-size:10px;text-align:center;display:block;overflow:hidden;text-decoration:none;position:absolute;}
-#f_buttonDiv a:link,#f_buttonDiv a:visited,#f_buttonDiv a:active{color:#000;}
-#f_buttonDiv a:hover{background:#5F0900;color:#fff;}
-#f_buttonDiv a.on:link,#f_buttonDiv a.on:visited,#f_buttonDiv a.on:active,#f_buttonDiv a.on:hover{background:#5F0900;color:#fff;}
-#f_buttonDiv a.on:hover{background:#5F0900;}
+/* menu2 */
+#menu2{ width:616px; height:194px; overflow:hidden; padding-top:6px; margin:0 auto; background:url(images/tx2_mid_26.gif) right 6px  no-repeat;}
+#menu2_left{width:93px;  float:left;}
+#menu2_right{ width:503px; float:right; padding:8px 12px 0 8px;}
+#menu2_list{width:100%;}
+#menu2_list li{ height:24px; padding-left:24px; line-height:24px; color:#F6DF77;cursor:pointer;}
+#menu2_list .open{ background:url(images/tx2_mid_25.gif) no-repeat top;}
+#menu2_list .close{background:url(images/tx2_mid_29.gif) no-repeat top;}
+#menu2_right ul{width:249px;}
+#menu2_right .box_list li{text-indent:1.5em;}
+#menu2_right div{display:none;}
+div#menu2_content1{display:block;}
+/* menu3 */
+#menu3_out{ width:100%; position:relative; float:left; top:-2px; z-index:1;background:#3B0806 url(images/tx2_mid_menu3_08.gif) top no-repeat;}
+#menu3_in{ float:left;background: url(images/tx2_mid_menu3_13.gif) bottom no-repeat;}
+#menu3{  position:relative;height:28px; z-index:2;}
+#menu3 li{width:54px; height:28px;margin-right:3px; overflow:hidden; float:left; cursor:pointer;}
+#menu3 .open{background:url(images/tx2_mid_menu3_03.gif);}
+#menu3 .close{background:url(images/tx2_mid_menu3_05.gif);}
+#menu3 li div{width:29px; height:13px; margin:8px auto 0 auto;}
+#menu3_1 .close div{ background:url(images/tx2_menu3_text_off_1.gif);}
+#menu3_2 .close div{ background:url(images/tx2_menu3_text_off_2.gif);}
+#menu3_3 .close div{ background:url(images/tx2_menu3_text_off_3.gif);}
+#menu3_4 .close div{ background:url(images/tx2_menu3_text_off_4.gif);}
+#menu3_5 .close div{ background:url(images/tx2_menu3_text_off_5.gif);}
+#menu3_6 .close div{ background:url(images/tx2_menu3_text_off_6.gif);}
+#menu3_7 .close div{ background:url(images/tx2_menu3_text_off_7.gif);}
+#menu3_8 .close div{ background:url(images/tx2_menu3_text_off_8.gif);}
+#menu3_1 .open div{ background:url(images/tx2_menu3_text_on_1.gif);}
+#menu3_2 .open div{ background:url(images/tx2_menu3_text_on_2.gif);}
+#menu3_3 .open div{ background:url(images/tx2_menu3_text_on_3.gif);}
+#menu3_4 .open div{ background:url(images/tx2_menu3_text_on_4.gif);}
+#menu3_5 .open div{ background:url(images/tx2_menu3_text_on_5.gif);}
+#menu3_6 .open div{ background:url(images/tx2_menu3_text_on_6.gif);}
+#menu3_7 .open div{ background:url(images/tx2_menu3_text_on_7.gif);}
+#menu3_8 .open div{ background:url(images/tx2_menu3_text_on_8.gif);}
+/* menu3 内容 */
+.menu3_content_left{width:185px; float:left; padding:15px 0 15px 20px;}
+.menu3_content_left img{ border:1px #9D7D5E solid;}
+.menu3_content_right{width:410px;  padding:15px 0; float:right; background:url(pic/menu3_pic_03.jpg) 295px 17px no-repeat;}
+.menu3_content_right .box_list li{ text-indent:1.5em;}
+#gf_menu_list {
+	display: none;
+}
+a.yellow {
+	color: #F6DF77;
+	text-decoration: underline;
+}
+a.yellow:link {
+	color: #F6DF77;
+	text-decoration: underline;
+}
+input.sou {
+	background-image: url(images/sou.gif);
+	height: 19px;
+	width: 35px;
+	background-color: #FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
 -->
 </style>
 </head><body><script language="javascript" type="text/javascript" src="/js/tx2_gl_base.js"></script><style type="text/css"><!--#head, #head_line, #foot{width:100%}--></style>
@@ -52,68 +100,25 @@
   	    </ul>		  </div>
 	  <div class="h10"></div>
 	  <div class="menu">
-	  	<ul class="site_menu_2">
-	  		<a href="/fans.html" target="_blank"><img src="/images/tx2_left_text_28_2.gif" alt="玩家站首页" border="0"/></a>
+	  	<ul class="site_menu">
+	  		<a href="/fans.html"><img src="/images/tx2_left_text_28.gif" alt="玩家站首页" border="0"></a>
   	    </ul>		
 		<ul id="wj_menu_list">
-	  	<ul id="wj_menu1" class="root_close_2">
-			<li class="root_title" onclick="change_menu('wj_menu',6,1,'root_open_2','root_close_2');"><img src="/images/tx2_left_text_xs.gif" alt="新手攻略" border="0"/></li>
-			<li class="text"><a href="/skill/xs.html">新手攻略</a></li>
-			<li class="text"><a href="/skill/sj.html">练级攻略</a></li>
-		</ul>
-		<ul id="wj_menu2" class="root_close_2">
-			<li class="root_title" onclick="change_menu('wj_menu',6,2,'root_open_2','root_close_2');"><img src="/images/tx2_left_text_rw.gif" alt="任务宝典" border="0"/></li>
-			<li class="text"><a href="/skill/rw.html">任务大全</a></li>
-			<li class="text"><a href="/skill/rw/zy.html">中原任务</a></li>
-			<li class="text"><a href="/skill/rw/jn.html">江南任务</a></li>
-			<li class="text"><a href="/skill/rw/bs.html">巴蜀任务</a></li>
-			<li class="text"><a href="/skill/rw/lz.html">雷泽任务</a></li>
-			<li class="text"><a href="/skill/rw/yq.html">燕丘任务</a></li>
-			<li class="text"><a href="/skill/rw/xy.html">逍遥任务</a></li>
-		</ul>
-		<ul id="wj_menu3" class="root_close_2">
-			<li class="root_title" onclick="change_menu('wj_menu',6,3,'root_open_2','root_close_2');"><img src="/images/tx2_left_text_zh.gif" alt="综合经验" border="0"/></li>
-			<li class="text"><a href="/skill/zh.html">综合经验</a></li>
-			<li class="text"><a href="/skill/sh.html">生活技能</a></li>
-			<li class="text"><a href="/skill/hh.html">仙心幻化</a></li>
-			<li class="text"><a href="/skill/sl.html">势力城战</a></li>
-			<li class="text"><a href="/skill/pk.html">PK经验</a></li>
-		</ul>
-		<ul id="wj_menu4" class="root_close_2">
-			<li class="root_title" onclick="change_menu('wj_menu',6,4,'root_open_2','root_close_2');"><img src="/images/tx2_left_text_mpgl.gif" alt="门派宝典" width="62" height="15" border="0"/></li>
-			<li class="text"><a href="/skill/mp/hh.html">荒火教</a></li>
-			<li class="text"><a href="/skill/mp/tj.html">天机营</a></li>
-			<li class="text"><a href="/skill/mp/ly.html">翎羽山庄</a></li>
-			<li class="text"><a href="/skill/mp/wl.html">魍魉</a></li>
-			<li class="text"><a href="/skill/mp/tx.html">太虚观</a></li>
-			<li class="text"><a href="/skill/mp/yj.html">弈剑听雨阁</a></li>
-			<li class="text"><a href="/skill/mp/yl.html">云麓仙居</a></li>
-			<li class="text"><a href="/skill/mp/bx.html">冰心堂</a></li>
-		</ul>	
-		<ul id="wj_menu5" class="root_close_2">
-			<li class="root_title" onclick="change_menu('wj_menu',6,5,'root_open_2','root_close_2');"><img src="/images/tx2_left_text_mr.gif" alt="名人访谈" border="0"/></li>
-			<li class="text"><a href="/fans/mr.html">名人访谈</a></li>
-		</ul>
-		<ul id="wj_menu6" class="root_close_2">
-			<li class="root_title" onclick="change_menu('wj_menu',6,6,'root_open_2','root_close_2');"><img src="/images/tx2_left_text_hd.gif" alt="互动展示" border="0"/></li>
-			<li class="text"><a href="/fans/hd.html">互动展示</a></li>
-			<li class="text"><a href="/fans/xq.html">心情</a></li>
-			<li class="text"><a href="/fans/story.html">小说</a></li>
-			<li class="text"><a href="/fans/zt.html">杂谈</a></li>
-			<li class="text"><a href="/fans/sp.html">视频截图</a></li>
-		</ul>				
+	  		
+		<ul id="wj_menu2" class="root_open">
+			<li class="root_title"><a href="/skill/xs.html"><img src="/images/tx2_left_text_31.gif" alt="游戏攻略" border="0"></a></li>		</ul>
+		<ul id="wj_menu3" class="root_open_no">
+			<li class="root_title"><img src="/images/tx2_left_text_34.gif" alt="视频专区"></li>		</ul>
+		<ul id="wj_menu4" class="root_open_no">
+			<li class="root_title"><img src="/images/tx2_left_text_36.gif" alt="游戏截图"></li>		</ul>		<ul id="wj_menu6" class="root_open_no">
+			<li class="root_title"><img src="/images/tx2_left_text_40.gif" alt="玩家真人秀"></li>		</ul>
 		</ul>
 	  </div>
-	  <script language="javascript" type="text/javascript" src="/web/20070518053617js_/http://tx2.163.com:80/js/show_menu.js"></script>
 	  <div class="h10"></div>
 	  <div class="menu">
 	  	<ul class="site_menu">
-	  		<a href="http://tx2.netease.com/" target="_blank"><img src="/images/tx2_left_text_bbs.gif" alt="官方论坛" border="0"/></a>
-  	    </ul>		
-
-	  </div>
-
-    </div>
+	  		<a href="http://tx2.netease.com/" target="_blank"><img src="/images/tx2_left_text_bbs.gif" alt="官方论坛" border="0"></a>
+  	    </ul>			  </div>    </div>
     <div id="mid">
 		<div id="mid_bg_tl">
 			<div id="mid_bg_tr">
