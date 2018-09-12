@@ -20,20 +20,32 @@ alert("复制地址成功,您可以粘贴（CTRL+V）发送给好友");
 } 
 //document.write(this.location.href); //显示地址
 </script>
-<style>
-.pulllog-box {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 150;
-    height: 64px;
-    width: 100%;
-    padding: 15px;
-    font-size: 16px;
-    color: #535886;
-    background: rgba(33, 26, 15, 0.9);
-</style>
+
+<script src="/js/easydialog-v2.0/easydialog.min.js"></script>
+<script>
+
+var $ = function(){
+	return document.getElementById(arguments[0]);
+};
+
+var btnFn = function( e ){
+	alert( e.target );
+	return false;
+};
+
+
+
+$('demoBtn3').onclick = function(){
+	easyDialog.open({
+		container : 'imgBox',
+		autoClose : 2000,
+		fixed : false
+	});
+};
+
+
+
+</script>
 </head><body><script language="javascript" type="text/javascript" src="/js/tx2_gl_base.js"></script>
 <!-- head start -->
 <div id="head">
@@ -301,17 +313,7 @@ border="0" /></a>
    网易公司版权所有 &copy;1997-2007</div>		
 	</div>
 </div>
-<div class="pulllog-box" style="display: block;">
-	<div class="pulllog clearfix">
-		<span class="text float-left">
-			本站与bigtx.cn 跑图项目无关，特此说明
-		</span>
-		<div class="pulllog-btn float-right clearfix">
-           
-		</div>
-	</div>
-	</div>
-<span class="hidden"></span>
+<script language="javascript">alert('你要显示的文字');</script>
 	
 <!-- foot end --></body>
 </html>
