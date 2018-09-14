@@ -21,8 +21,20 @@
     text-align: center;
         color: #e40808;
 }
-
-	</style>
+.widget-box-close {
+    position: absolute;
+    top: 9px;
+    right: 60px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    font-size: 18px;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+}
+</style>
 <HEAD>
 <TITLE>老天下贰元魂珠属性查看 - 《天下贰》 - 仙心幻化 - 元魂珠满属性技能一览 </TITLE>
 <META http-equiv=Content-Type content="text/html; charset=UTF-8">
@@ -80,14 +92,26 @@
     <div id="copyright"></div>
   </div>
 </div>
+	
+<!-- foot end -->
+<div class="widget-body" id="div1" data-type="project">
 <div class="widget-main" style="">
 <div class="widget-box">
-<div class="slogn">本站与bigtx.cn无任何关系，特此声明 </div>
+<div class="slogn">本站与bigtx.cn无任何关系，特此声明 ！！</div>
+<a class="widget-box-close" href="#" title="关闭">X</a>
 
-
-<a class="widget-box-close" href="javascript:;" title="关闭">X</a></div>
+</div>
  
 </div>
-<script language="javascript">alert('本站与bigtx.cn无任何关系，特此声明！！');</script>
+</div>
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("A").click(function(){
+    $("#div1").remove();
+  });
+});
+</script>
 </body>
-</HTML>
+</html>
