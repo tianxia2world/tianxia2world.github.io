@@ -161,9 +161,11 @@ input.sou {
 	<div id="f_imgDiv"><a href="//skill/xs.html" target="_blank" id="f_imgLink"><img alt="新手进游戏必看常识" src="/banner/first/banner2.jpg" id="f_img" height="188" width="289"></a></div>
 	<div id="f_infoDiv">
 		<!--数字按钮区域-->
-		<div id="f_buttonDiv"><div class="bg" id="div_bg2"><a href="javascript:button_change(2)" title="新手进游戏必看常识" class="on" id="button2">3</a></div><div></div><div class="bg" id="div_bg1"><a href="javascript:button_change(1)" title="天下贰官方论坛游戏资料汇总" class="button" id="button1">2</a></div><div></div><div class="bg" id="div_bg0"><a href="javascript:button_change(0)" title="天下贰3月1日公测" class="button" id="button0">1</a></div><div></div></div>
+		<div id="f_buttonDiv"></div>
 	</div>
-</div><!--焦点文字区域-->
+</div>
+
+<!--焦点文字区域-->
 <!--<div id="f_text" class="f12b"></div>-->
 <script>
 //可修改区域
@@ -176,7 +178,9 @@ var timeOut2=_timeOut_/2;//onmouseout img后需要切换的时间
 var now=0;              //第一张图
 var target="_blank";   //打开方式
 var button_on ='on'; //当前焦点对应按钮的样式名
-var button_off ='';//非当前焦点对应按钮的样式名//不可修改区域
+var button_off ='';//非当前焦点对应按钮的样式名
+
+//不可修改区域
 var imgUrl = new Array();
 //var imgText = new Array();
 var imgLink = new Array();
@@ -184,20 +188,30 @@ var imgAlt= new Array();
 //var menuList = new Array();//菜单menu
 var ver=2; //兼容浏览器版本 默认2 为非ie
 var firstTime=true;
-var n =-1;imgUrl[++n]='/banner/060205gc.jpg';
+var n =-1;
+
+imgUrl[++n]='/banner/060205gc.jpg';
 imgLink[n]='/2007/2/5/413_155967.html';
-imgAlt[n]='天下贰3月1日公测';imgUrl[++n]='/banner/first/banner1.jpg';
+imgAlt[n]='天下贰3月1日公测';
+
+imgUrl[++n]='/banner/first/banner1.jpg';
 imgLink[n]='http://tx2.netease.com/viewthread.php?tid=15404&extra=page%3D1';
-imgAlt[n]='天下贰官方论坛游戏资料汇总';imgUrl[++n]='/banner/first/banner2.jpg';
+imgAlt[n]='天下贰官方论坛游戏资料汇总';
+
+imgUrl[++n]='/banner/first/banner2.jpg';
 imgLink[n]='/skill/xs.html';
-imgAlt[n]='新手进游戏必看常识';var count=0;
+imgAlt[n]='新手进游戏必看常识';
+
+var count=0;
 for (i=0;i<imgUrl.length;i++) {
 if( (imgUrl[i]!="") && (imgLink[i]!="")&& (imgAlt[i]!="")) {
 count++;
 } else {
 break;
 }
-}//固定图片size
+}
+
+//固定图片size
 p("<style> #f_img { width:"+imgWidth+"px;height:"+imgHeight+"px;</style>");
 function change(){
 if (ver==1){
@@ -236,13 +250,17 @@ var a = document.createElement("a");
 a.id="f_imgLink";
 a.target=target;
 a.href=imgLink[now];
-$('f_imgDiv').appendChild(a);var img = document.createElement("img");
+$('f_imgDiv').appendChild(a);
+
+var img = document.createElement("img");
 img.id="f_img";
 img.width=imgWidth;
 img.height=imgHeight;
 img.src=imgUrl[now];
 img.alt=imgAlt[now];
-a.appendChild(img);//数字按钮
+a.appendChild(img);
+
+//数字按钮
 for (var i=count-1;i>=0;i--){
 var div_bg = document.createElement("div");
 div_bg.id = 'div_bg'+i;
@@ -268,8 +286,10 @@ $('f_img').filters[0].play();
 ver=1;
 }
 catch (e){ver=2;}
-var theTimer = setTimeout("change()", _timeOut_/1000);</script><style> #f_img { width:289px;height:188px;</style>
-								</div>							
+var theTimer = setTimeout("change()", _timeOut_/1000);
+
+</script>
+								</div>			
 								<div class="box_311x199_2">
 									<div class="box_title">
 										<img src="/images/tx2_mid_icon_03.gif" height="20" width="85">
