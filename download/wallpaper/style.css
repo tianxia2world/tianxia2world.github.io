@@ -1,0 +1,18 @@
+body {
+	margin:0;
+	font-size: 14px;
+	background:black;
+}
+.table3 {
+	font-size: 12px;
+	padding: 1px;
+	text-align: center;
+	color: #CC9900;
+	background-color: #790000;
+}
+.table3 img{
+	border: 2px solid #671400;
+}
+.table3 td{
+	border: 1px solid #C68F12;
+}
