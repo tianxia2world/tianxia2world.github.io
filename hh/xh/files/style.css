@@ -1,0 +1,138 @@
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: url(bg.gif) #000; MARGIN: 0px; COLOR: #ffcc00; HEIGHT: 100%
+}
+#head {
+	BACKGROUND: url(head_bg.jpg) no-repeat center top; MARGIN: 0px auto; WIDTH: 1004px; HEIGHT: 107px
+}
+#main {
+	BACKGROUND-IMAGE: url(bgc.jpg); MARGIN: 0px auto; WIDTH: 960px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 542px
+}
+#content {
+	MARGIN: 5px; WIDTH: 950px; HEIGHT: 532px
+}
+#menu {
+	CLEAR: both; BACKGROUND-POSITION: center bottom; BACKGROUND-IMAGE: url(hr.gif); MARGIN-LEFT: auto; WIDTH: 900px; MARGIN-RIGHT: auto; BACKGROUND-REPEAT: no-repeat; HEIGHT: 24px
+}
+#menu_con {
+	MARGIN-LEFT: 150px
+}
+#menu P {
+	FLOAT: left; BACKGROUND-IMAGE: url(mbg.gif); MARGIN: 0px 5px; WIDTH: 63px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 21px
+}
+#menu SPAN {
+	DISPLAY: block; FONT-WEIGHT: bold; WIDTH: 60px; LINE-HEIGHT: 21px; LETTER-SPACING: 2px; TEXT-ALIGN: center
+}
+#jn {
+	CLEAR: both; MARGIN-LEFT: auto; WIDTH: 900px; MARGIN-RIGHT: auto; HEIGHT: 400px
+}
+#jn IMG {
+	FLOAT: left; BORDER-TOP-STYLE: none; MARGIN-RIGHT: 1px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#jn SPAN {
+	MARGIN-TOP: 0px; DISPLAY: block; FLOAT: left; MARGIN-LEFT: 8px; WIDTH: 72px; TEXT-ALIGN: center
+}
+.jns {
+	FLOAT: left; BACKGROUND-IMAGE: url(jn.jpg); MARGIN-LEFT: 30px; WIDTH: 250px; LINE-HEIGHT: 16px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 400px
+}/*原技能底图设置*/
+.jnt {
+	MARGIN-TOP: 236px; MARGIN-LEFT: 20px; WIDTH: 215px; HEIGHT: 78px
+}/*技能格子相对于面板的位置*/
+.jnp {
+	CLEAR: both; MARGIN-TOP: 1px; MARGIN-BOTTOM: 3px; MARGIN-LEFT: 1px; WIDTH: 210px; COLOR: #ffffff; HEIGHT: 34px
+}
+.px10 {
+	WIDTH: auto; HEIGHT: 10px
+}
+.tt {
+	MARGIN-LEFT: 10px
+}
+.white {
+	COLOR: #ffffff
+}
+#jnmain {
+	CLEAR: both; DISPLAY: none; FILTER: Alpha(Opacity=85); LEFT: -5px; BACKGROUND-IMAGE: url(jnc.jpg); MARGIN: 0px; OVERFLOW: hidden; WIDTH: 238px; BACKGROUND-REPEAT: repeat-y; POSITION: absolute; TOP: 0px; HEIGHT: auto
+}/*技能tips背景*/
+#jnmain P {
+	MARGIN: 2px
+}/*tips内部P定义*/
+#jnmain TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}/*tips内部table定义*/
+#jnmain TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 108px; PADDING-TOP: 0px; HEIGHT: auto
+}/*tips内部TD对技力射程的定义*/
+#jnmain_top {
+	BACKGROUND-IMAGE: url(jnt.jpg); MARGIN: 1px auto -10px; WIDTH: 238px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 10px
+}/*tips上面的那一条属性定义，调小往上，调大往下*/
+#jnmain_con {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; WIDTH: 218px; PADDING-TOP: 10px; HEIGHT: auto
+}
+#jnmain_bot {
+	BACKGROUND-IMAGE: url(jnb.jpg); MARGIN: -13px auto 0px; WIDTH: 238px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 9px
+}/*tips下面的那一条属性定义,margin是与中部的距离，auto是自身的高度*/
+#jn_title {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; COLOR: #0198ff
+}/*font-family:黑体;*/
+#jn_jj {
+	MARGIN-BOTTOM: 0px
+}
+#jn_btn {
+	MARGIN-LEFT: auto; WIDTH: 900px; MARGIN-RIGHT: auto; HEIGHT: 50px
+}
+#jn_btn_more {
+	LINE-HEIGHT: 25px; MARGIN-RIGHT: 60px; TEXT-ALIGN: right
+}
+#copyright {
+	BACKGROUND: url(foot_bg.jpg) no-repeat center bottom; MARGIN: -40px auto 0px; WIDTH: 1004px; COLOR: #cccccc; HEIGHT: 130px
+}
+#copyright A {
+	COLOR: #cccccc
+}
+A:link {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.now:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.now:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+#foot {
+	TEXT-ALIGN: center
+}
+#txt_pic_1 {
+	BACKGROUND: url(txt_pic_03.jpg) no-repeat center 50%; FLOAT: left; WIDTH: 24px; HEIGHT: 350px
+}
+#copyright {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; TEXT-ALIGN: center
+}
+#remark {
+	FONT-SIZE: 12px; PADDING-BOTTOM: 7px; COLOR: #965434; TEXT-ALIGN: center
+}
+#remark A {
+	COLOR: #965434; TEXT-DECORATION: none
+}
+
+#jns1 {
+	FLOAT: left; BACKGROUND-IMAGE: url(jn1.jpg); MARGIN-LEFT: 30px; WIDTH: 250px; LINE-HEIGHT: 16px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 400px
+}
+
+#jns2 {
+	FLOAT: left; BACKGROUND-IMAGE: url(jn2.jpg); MARGIN-LEFT: 30px; WIDTH: 250px; LINE-HEIGHT: 16px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 400px
+}
+
+#jns3 {
+	FLOAT: left; BACKGROUND-IMAGE: url(jn3.jpg); MARGIN-LEFT: 30px; WIDTH: 250px; LINE-HEIGHT: 16px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 400px
+}
